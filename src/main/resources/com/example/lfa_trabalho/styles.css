@@ -1,0 +1,50 @@
+.anchor-pane {
+    -fx-min-height: 720px;
+    -fx-min-width: 1080px;
+}
+
+.tool-bar {
+    -fx-background-color: #2E2E2E;
+}
+
+.tool-bar .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+.tool-bar .button:hover {
+    -fx-background-color: #555555;
+}
+
+.tool-bar .button:nth-child(1) {
+    -fx-background-color: #4CAF50;
+}
+
+.tool-bar .button:nth-child(2) {
+    -fx-background-color: #2196F3;
+}
+
+.tool-bar .button:nth-child(3) {
+    -fx-background-color: #FFC107;
+}
+
+.tool-bar .button:nth-child(4) {
+    -fx-background-color: grey;
+}
+
+.menu-bar {
+    -fx-background-color: #3E3E3E;
+}
+
+.menu-bar .button:hover{
+    -fx-background-color: #555555;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu-item {
+    -fx-text-fill: white;
+}

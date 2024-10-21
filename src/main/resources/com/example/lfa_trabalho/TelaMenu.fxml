@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="254.0" stylesheets="@styleTelaMenu.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lfa_trabalho.TelaMenu">
+
+    <!-- VBox to hold and center the menu options -->
+    <VBox alignment="CENTER" layoutX="11.0" prefHeight="350.0" prefWidth="250.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="0.0">
+      <Label style="-fx-font-style: arial;" text="Simulador Linguagem Regular">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+
+        <!-- Styled Button for 'Autômatos Finitos' -->
+        <Button fx:id="btnAutomatosFinitos" minHeight="50.0" minWidth="250.0" onMouseClicked="#automato" styleClass="menu-button" text="Autômatos Finitos" />
+
+        <Button fx:id="btnExpressao" minHeight="50.0" minWidth="250.0" onMouseClicked="#expressao" prefHeight="50.0" prefWidth="262.0" styleClass="menu-button" text="Expressão Regular" />
+
+        <Button fx:id="btnGramatica" minHeight="50.0" minWidth="250.0" onMouseClicked="#gramatica" styleClass="menu-button" text="Gramática Regular" />
+    </VBox>
+</AnchorPane>

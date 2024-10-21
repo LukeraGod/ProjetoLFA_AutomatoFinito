@@ -1,0 +1,30 @@
+.anchor-pane {
+    -fx-pref-height: 350px;
+    -fx-pref-width: 254px;
+    -fx-background-color: #2C3E50;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+    -fx-alignment: CENTER;
+}
+
+.label {
+    -fx-text-fill: blue;
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.menu-button {
+    -fx-background-color: #34495E;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-min-height: 50px;
+    -fx-min-width: 250px;
+    -fx-padding: 10px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #2980B9; /* Cor de fundo ao passar o mouse */
+}
