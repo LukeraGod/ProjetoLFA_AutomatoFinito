@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" minHeight="720.0" minWidth="1080.0" onMouseClicked="#criarEstado" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lfa_trabalho.HelloController">
+    <children>
+        <ToolBar layoutX="23.0" layoutY="14.0" prefHeight="47.0" prefWidth="320.0">
+            <items>
+                <Button mnemonicParsing="false" onMouseClicked="#mudarParaEstado" text="Estado" />
+                <Button mnemonicParsing="false" onMouseClicked="#mudarParaSeta" text="Setas" />
+                <Button mnemonicParsing="false" onAction="#mudarParaSelec" text="Selecionar" />
+                <Button mnemonicParsing="false" onAction="#excluirElemento" text="X" />
+              <MenuBar style="-fx-background-color: white;">
+                  <menus>
+                      <Menu style="font-color: white;" text="Testes">
+                          <items>
+                              <MenuItem mnemonicParsing="false" onAction="#testeUnico" text="Unico" />
+                              <MenuItem mnemonicParsing="false" onAction="#testeMultiplo" text="Multiplos" />
+                          </items>
+                      </Menu>
+                  </menus>
+              </MenuBar>
+            </items>
+        </ToolBar>
+    </children>
+</AnchorPane>
